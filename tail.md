@@ -1,7 +1,7 @@
 # Linux tail Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** tail - output the last part of files **
+> **tail - output the last part of files**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -55,7 +55,7 @@ For complete documentation, run: info coreutils 'tail invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Display the last part of a file. **
+**Display the last part of a file.**
 
 - Show last 'num' lines in file:
 

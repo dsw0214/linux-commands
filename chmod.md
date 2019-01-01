@@ -1,7 +1,7 @@
 # Linux chmod Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** chmod - change file mode bits **
+> **chmod - change file mode bits**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -29,7 +29,7 @@ For complete documentation, run: info coreutils 'chmod invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Change the access permissions of a file or directory. **
+**Change the access permissions of a file or directory.**
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 

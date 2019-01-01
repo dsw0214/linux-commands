@@ -1,7 +1,7 @@
 # Linux ls Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** ls - list directory contents ** 
+> **ls - list directory contents** 
 
 ### Command Format and Options (命令格式和选项)
 ```

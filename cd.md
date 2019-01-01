@@ -1,7 +1,7 @@
 # Linux cd Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** cd - Change the current working directory ** 
+> **cd - Change the current working directory** 
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -11,7 +11,7 @@ usage: cd [-L|[-P [-e]]] [dir]
 
 ### Command Example (命令范例)
 -------------------
-** Change the current working directory. **
+**Change the current working directory.**
 
 - Go to the given directory:
 

@@ -1,7 +1,7 @@
 # Linux ping Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** ping - send ICMP ECHO_REQUEST to network hosts **
+> **ping - send ICMP ECHO_REQUEST to network hosts**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -15,7 +15,7 @@ Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
 ```
 ### Command Example (命令范例)
 -------------------
-** Send ICMP ECHO_REQUEST packets to network hosts. ** 
+**Send ICMP ECHO_REQUEST packets to network hosts.** 
 
 - Ping host:
 

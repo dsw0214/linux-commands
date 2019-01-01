@@ -1,7 +1,7 @@
 # Linux xargs Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** xargs - build and execute command lines from standard input **
+> **xargs - build and execute command lines from standard input**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -49,10 +49,8 @@ Report bugs to <bug-findutils@gnu.org>.
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Execute a command with piped arguments coming from another command, a file, etc.
-The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.
-** 
+**Execute a command with piped arguments coming from another command, a file, etc.
+The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.** 
 
 - Main usage pattern:
 

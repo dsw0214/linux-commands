@@ -1,7 +1,7 @@
 # Linux gzip Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** gzip, gunzip, zcat - compress or expand files **
+> **gzip, gunzip, zcat - compress or expand files**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -35,7 +35,7 @@ Report bugs to <bug-gzip@gnu.org>.
 ```
 ### Command Example (命令范例)
 -------------------
-** Compress/uncompress files with gzip compression (LZ77). **
+**Compress/uncompress files with gzip compression (LZ77).**
 
 - Compress a file, replacing it with a gzipped compressed version:
 

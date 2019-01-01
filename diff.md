@@ -1,7 +1,7 @@
 # Linux diff Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** diff - compare files line by line **
+> **diff - compare files line by line**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -105,7 +105,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 ```
 ### Command Example (命令范例)
 -------------------
-** Compare files and directories. **
+**Compare files and directories.**
 
 - Compare files:
 

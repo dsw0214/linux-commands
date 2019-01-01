@@ -1,7 +1,7 @@
 # Linux top Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** top - display Linux processes ** 
+> **top - display Linux processes** 
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -105,7 +105,7 @@ The typically mandatory switch ('-') and even whitespace are completely optional
 ```
 ### Command Example (命令范例)
 -------------------
-** Display dynamic real-time information about running processes. **
+**Display dynamic real-time information about running processes.**
 
 - Start top:
 

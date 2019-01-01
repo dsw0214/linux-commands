@@ -1,7 +1,7 @@
 # Linux cp Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** cp - copy files and directories **
+> **cp - copy files and directories**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -88,7 +88,7 @@ For complete documentation, run: info coreutils 'cp invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Copy files and folders. **
+**Copy files and folders.**
 
 - Copy a file to another location:
 

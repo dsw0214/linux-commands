@@ -1,7 +1,7 @@
 # Linux awk Command
 ### Command Introduction (命令介绍)
 -------------------
-> **  gawk - pattern scanning and processing language **
+> **gawk - pattern scanning and processing language**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -44,7 +44,7 @@ Examples:
 ```
 ### Command Example (命令范例)
 -------------------
-** A versatile programming language for working on files. **
+**A versatile programming language for working on files.**
 
 - Print the fifth column (a.k.a. field) in a space-separated file:
 

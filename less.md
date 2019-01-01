@@ -1,7 +1,7 @@
 # Linux less Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** less - opposite of more **
+> **less - opposite of more**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -241,7 +241,7 @@
 ```
 ### Command Example (命令范例)
 -------------------
-** Open a file for interactive reading, allowing scrolling and search. **
+**Open a file for interactive reading, allowing scrolling and search.**
 
 - Open a file:
 

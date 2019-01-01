@@ -1,7 +1,7 @@
 # Linux chown Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** chown - change file owner and group **
+> **chown - change file owner and group**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -57,7 +57,7 @@ For complete documentation, run: info coreutils 'chown invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Change user and group ownership of files and folders. **
+**Change user and group ownership of files and folders.**
 
 - Change the owner user of a file/folder:
 

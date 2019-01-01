@@ -1,7 +1,7 @@
 # Linux mv Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** mv - move (rename) files **
+> **mv - move (rename) files**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -46,7 +46,7 @@ For complete documentation, run: info coreutils 'mv invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Move or rename files and directories. ** 
+**Move or rename files and directories.** 
 
 - Move files in arbitrary locations:
 

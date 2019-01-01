@@ -1,7 +1,7 @@
 # Linux wget Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** Wget - The non-interactive network downloader. **
+> **Wget - The non-interactive network downloader.**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -177,10 +177,8 @@ Mail bug reports and suggestions to <bug-wget@gnu.org>.
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Download files from the Web.
-Supports HTTP, HTTPS, and FTP.
-**
+**Download files from the Web.
+Supports HTTP, HTTPS, and FTP.**
 
 - Download the contents of an URL to a file (named "foo" in this case):
 

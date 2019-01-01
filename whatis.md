@@ -1,7 +1,7 @@
 # Linux whatis Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** whatis - display manual page descriptions **
+> **whatis - display manual page descriptions**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -31,7 +31,7 @@ Report bugs to cjwatson@debian.org.
 
 ### Command Example (命令范例)
 -------------------
-** Display one-line descriptions from manual pages. **
+**Display one-line descriptions from manual pages.**
 
 - Display a description from a man page:
 

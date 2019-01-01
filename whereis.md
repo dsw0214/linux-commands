@@ -1,7 +1,7 @@
 # Linux whereis Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** whereis - locate the binary, source, and manual page files for a command **
+> **whereis - locate the binary, source, and manual page files for a command**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -24,7 +24,7 @@ For more details see whereis(1).
 ```
 ### Command Example (命令范例)
 -------------------
-** Locate the binary, source, and manual page files for a command. **
+**Locate the binary, source, and manual page files for a command.**
 
 - Locate binary, source and man pages for ssh:
 

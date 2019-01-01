@@ -1,7 +1,7 @@
 # Linux sed Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** sed - stream editor for filtering and transforming text **
+> **sed - stream editor for filtering and transforming text**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -54,7 +54,7 @@ Be sure to include the word ``sed'' somewhere in the ``Subject:'' field.
 ```
 ### Command Example (命令范例)
 -------------------
-** Edit text in a scriptable manner. **
+**Edit text in a scriptable manner.**
 
 - Replace the first occurrence of a string in a file, and print the result:
 
@@ -87,6 +87,3 @@ Be sure to include the word ``sed'' somewhere in the ``Subject:'' field.
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
   ` sed 's#find#replace#' filename`
-
-
-

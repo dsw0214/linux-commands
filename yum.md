@@ -1,8 +1,7 @@
 # Linux yum Command
 ### Command Introduction (命令介绍)
 -------------------
-> **
-yum - Yellowdog Updater Modified
+> **yum - Yellowdog Updater Modified
 A package can be referred to for install, update, remove, list, info etc with any of the following as well as globs of any of the following:
       name
       name.arch
@@ -14,8 +13,7 @@ A package can be referred to for install, update, remove, list, info etc with an
       For example: yum remove kernel-2.4.1-10.i686
            this will remove this specific kernel-ver-rel.arch.
       Or:          yum list available 'foo*'
-           will list all available packages that match 'foo*'. (The single quotes will keep your shell from expanding the globs.)
-**
+           will list all available packages that match 'foo*'. (The single quotes will keep your shell from expanding the globs.)**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -117,7 +115,7 @@ Options:
 ```
 ### Command Example (命令范例)
 -------------------
-** Package management utility for RHEL, Feodra, and CentOS (for older versions). **
+**Package management utility for RHEL, Feodra, and CentOS (for older versions).**
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
 

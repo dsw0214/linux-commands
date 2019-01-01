@@ -1,8 +1,7 @@
 # Linux ssh Command
 ### Command Introduction (命令介绍)
 -------------------
-> **
-     ssh — OpenSSH SSH client (remote login program)
+> **ssh — OpenSSH SSH client (remote login program)
                    CertificateFile
                    ChallengeResponseAuthentication
                    CheckHostIP
@@ -86,8 +85,7 @@
                    UserKnownHostsFile
                    VerifyHostKeyDNS
                    VisualHostKey
-                   XAuthLocation
-**
+                   XAuthLocation**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -103,11 +101,8 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 ```
 ### Command Example (命令范例)
 -------------------
-**
-
-Secure Shell is a protocol used to securely log onto remote systems.
-It can be used for logging or executing commands on a remote server.
-**
+**Secure Shell is a protocol used to securely log onto remote systems.
+It can be used for logging or executing commands on a remote server.**
 
 - Connect to a remote server:
 

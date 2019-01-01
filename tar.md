@@ -1,7 +1,7 @@
 # Linux tar Command
 ### Command Introduction (命令介绍)
 -------------------
-> **  tar - tar saves many files together into a single tape or disk archive, and can restore individual files from the archive. **
+> **tar - tar saves many files together into a single tape or disk archive, and can restore individual files from the archive.**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -312,10 +312,8 @@ Report bugs to <bug-tar@gnu.org>.
 ```
 ### Command Example (命令范例)
 -------------------
-** 
-Archiving utility.
-Often combined with a compression method, such as gzip or bzip.
-**
+**Archiving utility.
+Often combined with a compression method, such as gzip or bzip.**
 
 - Create an archive from files:
 

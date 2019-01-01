@@ -1,7 +1,7 @@
 # Linux shutdown Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** shutdown - Halt, power-off or reboot the machine **
+> **shutdown - Halt, power-off or reboot the machine**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -21,7 +21,7 @@ Shut down the system.
 ```
 ### Command Example (命令范例)
 -------------------
-** Shutdown and reboot the system. **
+**Shutdown and reboot the system.**
 
 - Power off (halt) immediately:
 

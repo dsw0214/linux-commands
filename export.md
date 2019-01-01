@@ -1,7 +1,7 @@
 # Linux export Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** export - Set a new environment variable **
+> **export - Set a new environment variable**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -10,7 +10,7 @@ export: usage: export [-fn] [name[=value] ...] or export -p
 ```
 ### Command Example (命令范例)
 -------------------
-** Command to mark shell variables in the current environment to be exported with any newly forked child processes. **
+**Command to mark shell variables in the current environment to be exported with any newly forked child processes.**
 
 - Set a new environment variable:
 

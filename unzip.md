@@ -1,7 +1,7 @@
 # Linux unzip Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** unzip - list, test and extract compressed files in a ZIP archive **
+> **unzip - list, test and extract compressed files in a ZIP archive**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -36,7 +36,7 @@ See "unzip -hh" or unzip.txt for more help.  Examples:
 ```
 ### Command Example (命令范例)
 -------------------
-** Extract compressed files in a ZIP archive. **
+**Extract compressed files in a ZIP archive.**
 
 - Extract zip file(s) (for multiple files, separate file paths by spaces):
 

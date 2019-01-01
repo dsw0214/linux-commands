@@ -1,7 +1,7 @@
 # Linux free Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** free - Display amount of free and used memory in the system **
+> **free - Display amount of free and used memory in the system**
 ### Command Format and Options (命令格式和选项)
 ```
 #free --help
@@ -30,7 +30,7 @@ For more details see free(1).
 ```
 ### Command Example (命令范例)
 -------------------
-** Display amount of free and used memory in the system. **
+**Display amount of free and used memory in the system.**
 
 - Display system memory:
 

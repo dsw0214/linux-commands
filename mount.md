@@ -1,7 +1,7 @@
 # Linux mount Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** mount - mount a filesystem **
+> **mount - mount a filesystem**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -65,7 +65,7 @@ For more details see mount(8).
 ```
 ### Command Example (命令范例)
 -------------------
-** Provides access to an entire filesystem in one directory. **
+**Provides access to an entire filesystem in one directory.**
 
 - Show all mounted filesystems:
 

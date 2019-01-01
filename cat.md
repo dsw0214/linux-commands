@@ -1,7 +1,7 @@
 # Linux cat Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** cat - concatenate files and print on the standard output **
+> **cat - concatenate files and print on the standard output**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -33,7 +33,7 @@ For complete documentation, run: info coreutils 'cat invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Print and concatenate files. **
+**Print and concatenate files.**
 
 - Print the contents of a file to the standard output:
 

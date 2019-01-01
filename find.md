@@ -1,9 +1,8 @@
 # Linux find Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** find - search for files in a directory hierarchy
-     information about how unusual characters in filenames are handled.
-**
+> **find - search for files in a directory hierarchy
+     information about how unusual characters in filenames are handled.**
        
 ### Command Format and Options (命令格式和选项)
 ```
@@ -45,12 +44,12 @@ email to <bug-findutils@gnu.org>.
 ```
 ### Command Example (命令范例)
 -------------------
-** Find files or directories under the given directory tree, recursively. **
+**Find files or directories under the given directory tree, recursively.**
 
 - Find files by extension:
 
   ` find root_path -name '*.ext'`
-
+  
 - Find files by matching multiple patterns:
 
   ` find root_path -name '*pattern_1*' -or -name '*pattern_2*'`

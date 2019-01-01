@@ -1,7 +1,7 @@
 # Linux passwd Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** passwd - update user's authentication tokens **
+> **passwd - update user's authentication tokens**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -29,7 +29,7 @@ Help options:
 ```
 ### Command Example (命令范例)
 -------------------
-** Passwd is a tool used to change a user's password. **
+**Passwd is a tool used to change a user's password.**
 
 - Change the password of the current user:
 

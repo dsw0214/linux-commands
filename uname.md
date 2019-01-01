@@ -1,7 +1,7 @@
 # Linux uname Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** uname - print system information **
+> **uname - print system information**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -27,10 +27,8 @@ For complete documentation, run: info coreutils 'uname invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Print details about the current machine and the operating system running on it.
-Note: for additional information about the operating system, try the `lsb_release` command.
-**
+**Print details about the current machine and the operating system running on it.
+Note: for additional information about the operating system, try the `lsb_release` command.**
 
 - Print hardware-related information: machine and processor:
 

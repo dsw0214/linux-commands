@@ -1,7 +1,7 @@
 # Linux date Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** date - print or set the system date and time **
+> **date - print or set the system date and time**
 ### Command Format and Options (命令格式和选项)
 ```
 #date --help
@@ -106,7 +106,7 @@ For complete documentation, run: info coreutils 'date invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Set or display the system date. **
+**Set or display the system date.**
 
 - Display the current date using the default locale's format:
 

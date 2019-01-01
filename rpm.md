@@ -1,7 +1,7 @@
 # Linux rpm Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** rpm - RPM Package Manager **
+> **rpm - RPM Package Manager**
    
 ### Command Format and Options (命令格式和选项)
 ```
@@ -136,7 +136,7 @@ Help options:
 ```
 ### Command Example (命令范例)
 -------------------
-** RPM Package Manager. **
+**RPM Package Manager.**
 
 - Show version of httpd package:
 

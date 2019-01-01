@@ -1,7 +1,7 @@
 # Linux pwd Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** pwd - print name of current/working directory **
+> **pwd - print name of current/working directory**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -20,7 +20,7 @@
 ```
 ### Command Example (命令范例)
 -------------------
-** Print name of current/working directory. **
+**Print name of current/working directory.**
 
 - Print the current directory:
 
@@ -29,6 +29,3 @@
 - Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
   ` pwd -P`
-
-
-

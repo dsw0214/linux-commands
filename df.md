@@ -1,7 +1,7 @@
 # Linux df Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** df - report file system disk space usage **
+> **df - report file system disk space usage**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -50,7 +50,7 @@ For complete documentation, run: info coreutils 'df invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Gives an overview of the file system disk space usage。**
+**Gives an overview of the file system disk space usage.**
 
 - Display all file systems and their disk usage:
 

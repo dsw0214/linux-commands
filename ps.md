@@ -1,7 +1,7 @@
 # Linux ps Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** ps - report a snapshot of the current processes. **
+> **ps - report a snapshot of the current processes.**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -18,7 +18,7 @@ For more details see ps(1).
 ```
 ### Command Example (命令范例)
 -------------------
-** Information about running processes. **
+**Information about running processes.**
 
 - List all running processes:
 

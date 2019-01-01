@@ -1,7 +1,7 @@
 # Linux crontab Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** crontab - maintains crontab files for individual users **
+> **crontab - maintains crontab files for individual users**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -28,10 +28,8 @@ Default operation is replace, per 1003.2
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Schedule cron jobs to run on a time interval for the current user.
-Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
-**
+**Schedule cron jobs to run on a time interval for the current user.
+Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".**
 
 - Edit the crontab file for the current user:
 

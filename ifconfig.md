@@ -1,7 +1,7 @@
 # Linux ifconfig Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** ifconfig - configure a network interface **
+> **ifconfig - configure a network interface**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -42,7 +42,7 @@ Usage:
 ```
 ### Command Example (命令范例)
 -------------------
-** Network Interface Configurator. **
+**Network Interface Configurator.**
 
 - View network settings of an ethernet adapter:
 

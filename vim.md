@@ -1,7 +1,7 @@
 # Linux vim Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** vim - Vi IMproved, a programmers text editor **
+> **vim - Vi IMproved, a programmers text editor**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -60,10 +60,8 @@ Arguments:
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Vi IMproved, a programmer's text editor, provides several modes for different kinds of text manipulation.
-Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
-**
+**Vi IMproved, a programmer's text editor, provides several modes for different kinds of text manipulation.
+Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.**
 
 - Open a file:
 

@@ -1,7 +1,7 @@
 # Linux grep Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** grep, egrep, fgrep - print lines matching a pattern **
+> **grep, egrep, fgrep - print lines matching a pattern**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -89,10 +89,8 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Matches patterns in input text.
-Supports simple patterns and regular expressions.
-**
+**Matches patterns in input text.
+Supports simple patterns and regular expressions.**
 
 - Search for an exact string:
 

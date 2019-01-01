@@ -1,7 +1,7 @@
 # Linux rm Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** rm - remove files or directories **
+> **rm - remove files or directories**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -45,7 +45,7 @@ For complete documentation, run: info coreutils 'rm invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Remove files or directories. **
+**Remove files or directories.**
 
 - Remove files from arbitrary locations:
 

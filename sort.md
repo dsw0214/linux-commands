@@ -1,7 +1,7 @@
 # Linux sort Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** sort - sort lines of text files **
+> **sort - sort lines of text files**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -80,7 +80,7 @@ For complete documentation, run: info coreutils 'sort invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Sort lines of text files. **
+**Sort lines of text files.**
 
 - Sort a file in ascending order:
 

@@ -1,10 +1,8 @@
 # Linux man Command
 ### Command Introduction (命令介绍)
 -------------------
-**
-man - an interface to the on-line reference manuals
-NOTES, BUGS, EXAMPLE, AUTHORS, and SEE ALSO.
-**
+**man - an interface to the on-line reference manuals
+NOTES, BUGS, EXAMPLE, AUTHORS, and SEE ALSO.**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -85,7 +83,7 @@ Report bugs to cjwatson@debian.org.
 ```
 ### Command Example (命令范例)
 -------------------
-** Format and display manual pages. **
+**Format and display manual pages.**
 
 - Display man page for a command:
 

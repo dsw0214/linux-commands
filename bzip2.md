@@ -1,9 +1,9 @@
 # Linux bzip2 Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** bzip2, bunzip2 - a block-sorting file compressor, v1.0.6
+> **bzip2, bunzip2 - a block-sorting file compressor, v1.0.6
 bzcat - decompresses files to stdout
-bzip2recover - recovers data from damaged bzip2 files **
+bzip2recover - recovers data from damaged bzip2 files**
 
 
 ### Command Format and Options (命令格式和选项)
@@ -39,7 +39,7 @@ bzip2, a block-sorting file compressor.  Version 1.0.6, 6-Sept-2010.
 ```
 ### Command Example (命令范例)
 -------------------
-** A block-sorting file compressor. **
+**A block-sorting file compressor.**
 
 - Compress file:
 

@@ -1,7 +1,7 @@
 # Linux kill Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** kill - terminate a process **
+> **kill - terminate a process**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -11,10 +11,8 @@ kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill 
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Sends a signal to a process, usually related to stopping the process.
-All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
-**
+**Sends a signal to a process, usually related to stopping the process.
+All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.**
 
 - Terminate a program using the default SIGTERM (terminate) signal:
 
@@ -39,6 +37,3 @@ All signals except for SIGKILL and SIGSTOP can be intercepted by the process to 
 - Signal the operating system to pause a program, it until a SIGCONT ("continue") signal is received:
 
   ` kill -17|STOP process_id`
-
-
-

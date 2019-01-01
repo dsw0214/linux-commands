@@ -1,7 +1,7 @@
 # Linux mysql Command
 ### Command Introduction (命令介绍)
 -------------------
-> **  mysql - the MySQL command-line tool **
+> **mysql - the MySQL command-line tool**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -222,7 +222,7 @@ binary-mode                       FALSE
 ```
 ### Command Example (命令范例)
 -------------------
-** The MySQL command-line tool. **
+**The MySQL command-line tool.**
 
 - Connect to a database:
 

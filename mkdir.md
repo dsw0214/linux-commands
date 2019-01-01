@@ -1,7 +1,7 @@
 # Linux mkdir Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** mkdir - make directories **
+> **mkdir - make directories**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -25,7 +25,7 @@ For complete documentation, run: info coreutils 'mkdir invocation'
 ```
 ### Command Example (命令范例)
 -------------------
-** Creates a directory. **
+**Creates a directory.**
 
 - Create a directory in current folder or given path:
 

@@ -1,7 +1,7 @@
 # Linux service Command
 ### Command Introduction (命令介绍)
 -------------------
-> ** service - run a System V init script **
+> **service - run a System V init script**
 
 ### Command Format and Options (命令格式和选项)
 ```
@@ -10,10 +10,8 @@ Usage: service < option > | --status-all | [ service_name [ command | --full-res
 ```
 ### Command Example (命令范例)
 -------------------
-**
-Manage services by running init scripts.
-The full script path should be omitted (/etc/init.d/ is assumed).
-**
+**Manage services by running init scripts.
+The full script path should be omitted (/etc/init.d/ is assumed).**
 
 - Start/Stop/Restart/Reload service (start/stop should always be available):
 
