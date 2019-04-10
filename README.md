@@ -29,7 +29,7 @@
 #####  [fg 命令](https://github.com/dsw0214/linux-commands/blob/master/fg.md "fg 命令") : 将后台中的命令调至前台继续运行
 #####  [jobs 命令](https://github.com/dsw0214/linux-commands/blob/master/jobs.md "jobs 命令") : 查看当前有多少在后台运行的命令
 #####  [kill 命令](https://github.com/dsw0214/linux-commands/blob/master/kill.md "kill 命令") : 终止进程
-#####  [kill 命令](https://github.com/dsw0214/linux-commands/blob/master/kill.md "kill 命令")all : 通过进程名终止进程
+#####  [killall 命令](https://github.com/dsw0214/linux-commands/blob/master/killall.md "killall 命令") : 通过进程名终止进程
 #####  [pkill 命令](https://github.com/dsw0214/linux-commands/blob/master/pkill.md "pkill 命令") : 通过进程名终止进程
 #####  [crontab 命令](https://github.com/dsw0214/linux-commands/blob/master/crontab.md "crontab 命令") : 定时任务命令
 #####  [ps 命令](https://github.com/dsw0214/linux-commands/blob/master/ps.md "ps 命令") : 显示进程的快照
