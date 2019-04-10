@@ -1,9 +1,7 @@
 # Linux find Command
-### Command Introduction (命令介绍)
 -------------------
-> **find - search for files in a directory hierarchy
-     information about how unusual characters in filenames are handled.**
-       
+### Command Introduction (命令介绍)
+> **find - search for files in a directory hierarchy**
 ### Command Format and Options (命令格式和选项)
 ```
 #find --help
@@ -43,42 +41,38 @@ page at http://savannah.gnu.org/ or, if you have no web access, by sending
 email to <bug-findutils@gnu.org>.
 ```
 ### Command Example (命令范例)
--------------------
-**Find files or directories under the given directory tree, recursively.**
+```
 
-- Find files by extension:
+  find
 
-  ` find root_path -name '*.ext'`
-  
-- Find files by matching multiple patterns:
+  Find files or directories under the given directory tree, recursively.
 
-  ` find root_path -name '*pattern_1*' -or -name '*pattern_2*'`
+  - Find files by extension:
+    find root_path -name '*.ext'
 
-- Find directories matching a given name:
+  - Find files by matching multiple patterns:
+    find root_path -name '*pattern_1*' -or -name '*pattern_2*'
 
-  ` find root_path -type d -name *lib*`
+  - Find directories matching a given name:
+    find root_path -type d -name *lib*
 
-- Find files matching path pattern:
+  - Find files matching path pattern:
+    find root_path -path '**/lib/**/*.ext'
 
-  ` find root_path -path '**/lib/**/*.ext'`
+  - Run a command for each file, use {} within the command to access the filename:
+    find root_path -name '*.ext' -exec wc -l {} \;
 
-- Run a command for each file, use {} within the command to access the filename:
+  - Find files modified in the last 24-hour period:
+    find root_path -mtime -1
 
-  ` find root_path -name '*.ext' -exec wc -l {} \;`
+  - Find files using case insensitive name matching, of a certain size:
+    find root_path -size +500k -size -10M -iname '*.TaR.gZ'
 
-- Find files modified in the last 24-hour period:
+  - Delete files by name, older than 180 days:
+    find root_path -name '*.ext' -mtime +180 -delete
 
-  ` find root_path -mtime -1`
+  - Find files matching a given pattern, while excluding specific paths:
+    find root_path -name '*.py' -not -path '*/site-packages/*'
 
-- Find files using case insensitive name matching, of a certain size:
 
-  ` find root_path -size +500k -size -10M -iname '*.TaR.gZ'`
-
-- Delete files by name, older than 180 days:
-
-  ` find root_path -name '*.ext' -mtime +180 -delete`
-
-- Find files matching a given pattern, while excluding specific paths:
-
-  ` find root_path -name '*.py' -not -path '*/site-packages/*'`
-
+```

@@ -1,39 +1,41 @@
 # Linux kill Command
-### Command Introduction (命令介绍)
 -------------------
+### Command Introduction (命令介绍)
 > **kill - terminate a process**
-
 ### Command Format and Options (命令格式和选项)
 ```
-#kill 
-kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
-
+#man kill
+kill [-s signal|-p] [-q sigval] [-a] [--] pid...
+       kill -l [signal]
 ```
 ### Command Example (命令范例)
--------------------
-**Sends a signal to a process, usually related to stopping the process.
-All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.**
+```
 
-- Terminate a program using the default SIGTERM (terminate) signal:
+  kill
 
-  ` kill process_id`
+  Sends a signal to a process, usually related to stopping the process.
+  All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
 
-- List available signal names (to be used without the `SIG` prefix):
+  - Terminate a program using the default SIGTERM (terminate) signal:
+    kill process_id
 
-  ` kill -l`
+  - List available signal names (to be used without the SIG prefix):
+    kill -l
 
-- Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+  - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+    kill -1|HUP process_id
 
-  ` kill -1|HUP process_id`
+  - Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing Ctrl + C:
+    kill -2|INT process_id
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+  - Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+    kill -9|KILL process_id
 
-  ` kill -2|INT process_id`
+  - Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
+    kill -17|STOP process_id
 
-- Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+  - Send a SIGUSR1 signal to all processes with the given GID (group id):
+    kill -SIGUSR1 -group_id
 
-  ` kill -9|KILL process_id`
 
-- Signal the operating system to pause a program, it until a SIGCONT ("continue") signal is received:
-
-  ` kill -17|STOP process_id`
+```

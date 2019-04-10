@@ -1,6 +1,6 @@
 # Linux date Command
-### Command Introduction (命令介绍)
 -------------------
+### Command Introduction (命令介绍)
 > **date - print or set the system date and time**
 ### Command Format and Options (命令格式和选项)
 ```
@@ -105,21 +105,26 @@ GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
 For complete documentation, run: info coreutils 'date invocation'
 ```
 ### Command Example (命令范例)
--------------------
-**Set or display the system date.**
+```
 
-- Display the current date using the default locale's format:
+  date
 
-  ` date +"%c"`
+  Set or display the system date.
 
-- Display the current date in UTC and ISO 8601 format:
+  - Display the current date using the default locale's format:
+    date +"%c"
 
-  ` date -u +"%Y-%m-%dT%H:%M:%SZ"`
+  - Display the current date in UTC and ISO 8601 format:
+    date -u +"%Y-%m-%dT%H:%M:%SZ"
 
-- Display the current date as a Unix timestamp (seconds since the Unix epoch):
+  - Display the current date as a Unix timestamp (seconds since the Unix epoch):
+    date +%s
 
-  ` date +%s`
+  - Display a specific date (represented as a Unix timestamp) using the default format:
+    date -d @1473305798
 
-- Display a specific date (represented as a Unix timestamp) using the default format:
+  - Convert a specific date to the Unix timestamp format:
+    date -d "2018-09-01 00:00" +%s --utc
 
-  ` date -d @1473305798`
+
+```

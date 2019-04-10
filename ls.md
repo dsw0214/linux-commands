@@ -1,8 +1,7 @@
 # Linux ls Command
-### Command Introduction (命令介绍)
 -------------------
-> **ls - list directory contents** 
-
+### Command Introduction (命令介绍)
+> **ls - list directory contents**
 ### Command Format and Options (命令格式和选项)
 ```
 #ls --help
@@ -130,29 +129,29 @@ GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
 For complete documentation, run: info coreutils 'ls invocation'
 ```
 ### Command Example (命令范例)
--------------------
-** List directory contents. ** 
+```
 
-- List files one per line:
+  ls
 
-  ` ls -1`
+  List directory contents.
 
-- List all files, including hidden files:
+  - List files one per line:
+    ls -1
 
-  ` ls -a`
+  - List all files, including hidden files:
+    ls -a
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+  - Long format list (permissions, ownership, size and modification date) of all files:
+    ls -la
 
-  ` ls -la`
+  - Long format list with size displayed using human readable units (KB, MB, GB):
+    ls -lh
 
-- Long format list with size displayed using human readable units (KB, MB, GB):
+  - Long format list sorted by size (descending):
+    ls -lS
 
-  ` ls -lh`
+  - Long format list of all files, sorted by modification date (oldest first):
+    ls -ltr
 
-- Long format list sorted by size (descending):
 
-  ` ls -lS`
-
-- Long format list of all files, sorted by modification date (oldest first):
-
-  ` ls -ltr`
+```

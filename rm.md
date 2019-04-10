@@ -1,8 +1,7 @@
 # Linux rm Command
-### Command Introduction (命令介绍)
 -------------------
+### Command Introduction (命令介绍)
 > **rm - remove files or directories**
-
 ### Command Format and Options (命令格式和选项)
 ```
 #rm --help
@@ -44,28 +43,26 @@ GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
 For complete documentation, run: info coreutils 'rm invocation'
 ```
 ### Command Example (命令范例)
--------------------
-**Remove files or directories.**
+```
 
-- Remove files from arbitrary locations:
+  rm
 
-  ` rm path/to/file path/to/another/file`
+  Remove files or directories.
 
-- Recursively remove a directory and all its subdirectories:
+  - Remove files from arbitrary locations:
+    rm path/to/file path/to/another/file
 
-  ` rm -r path/to/folder`
+  - Recursively remove a directory and all its subdirectories:
+    rm -r path/to/directory
 
-- Forcibly remove a directory, without prompting for confirmation or showing error messages:
+  - Forcibly remove a directory, without prompting for confirmation or showing error messages:
+    rm -rf path/to/directory
 
-  ` rm -rf path/to/folder`
+  - Interactively remove multiple files, with a prompt before every removal:
+    rm -i file(s)
 
-- Interactively remove multiple files, with a prompt before every removal:
-
-  ` rm -i file(s)`
-
-- Remove files in verbose mode, printing a message for each removed file:
-
-  ` rm -v path/to/folder/*`
+  - Remove files in verbose mode, printing a message for each removed file:
+    rm -v path/to/directory/*
 
 
-
+```

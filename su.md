@@ -1,11 +1,7 @@
 # Linux su Command
-### Command Introduction (命令介绍)
 -------------------
-**su - run a command with substitute user and group ID
-user is not root).  It is recommended to always use the --login option (instead it's shortcut -) to avoid side effects caused by mixing environments.
-This version of su uses PAM for authentication, account and session management.  Some configuration options found in other su implementations such as e.g. support of  a
-wheel group have to be configured via PAM.**
-
+### Command Introduction (命令介绍)
+> **su - run a command with substitute user and group ID**
 ### Command Format and Options (命令格式和选项)
 ```
 #su --help
@@ -34,17 +30,20 @@ Options:
 For more details see su(1).
 ```
 ### Command Example (命令范例)
--------------------
-**Switch shell to another user.**
+```
 
-- Switch to user {{username}} (password required):
+  su
 
-  ` su username`
+  Switch shell to another user.
 
-- Switch to superuser (admin password required):
+  - Switch to superuser (admin password required):
+    su
 
-  ` su`
+  - Switch to user {{username}} (password required):
+    su username
 
-- Switch to user {{username}} and simulate a full login shell:
+  - Switch to user {{username}} and simulate a full login shell:
+    su - username
 
-  ` su - username`
+
+```
