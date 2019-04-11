@@ -130,7 +130,11 @@
 > #####  [diff 命令](https://github.com/dsw0214/linux-commands/blob/master/diff.md "diff 命令") : 全拼 difference,比较文件的差异,常用于文本文件
 > #####  [vimdiff 命令](https://github.com/dsw0214/linux-commands/blob/master/vimdiff.md "vimdiff 命令") : 命令行可视化文件比较工具,常用于文本文件
 > #####  [rev 命令](https://github.com/dsw0214/linux-commands/blob/master/rev.md "rev 命令") : 反向输出文件内容
+<<<<<<< HEAD
 > #####  [grep 命令](https://github.com/dsw0214/linux-commands/blob/master/grep.md "grep 命令"): 过滤字符串,三剑客老三
+=======
+[grep 命令](https://github.com/dsw0214/linux-commands/blob/master/grep.md "grep 命令"): 过滤字符串,三剑客老三
+>>>>>>> 81625cb26f836501915bef8e023c2d4063b1cc33
 > #####  [egrep 命令](https://github.com/dsw0214/linux-commands/blob/master/egrep.md "egrep 命令") : 过滤字符串,三剑客老三
 > #####  [join 命令](https://github.com/dsw0214/linux-commands/blob/master/join.md "join 命令") : 按两个文件的相同字段合并
 > #####  [tr 命令](https://github.com/dsw0214/linux-commands/blob/master/tr.md "tr 命令") : 替换或删除字符
