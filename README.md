@@ -5,14 +5,16 @@
 ## Table of Contents (目录)
 
 ###  线上查询及帮助命令
-> 
-#####  [man 命令](https://github.com/dsw0214/linux-commands/blob/master/man.md "man 命令") : 查看命令帮助,命令的词典,更复杂的还有info,但不常用
+----------
+
+> #####  [man 命令](https://github.com/dsw0214/linux-commands/blob/master/man.md "man 命令") : 查看命令帮助,命令的词典,更复杂的还有info,但不常用
 #####  [help 命令](https://github.com/dsw0214/linux-commands/blob/master/help.md "help 命令") : 查看 Linux I内置命令的帮助,比如cd命令
 #####  [whatis 命令](https://github.com/dsw0214/linux-commands/blob/master/whatis.md "whatis 命令") : 用于查询一个命令执行什么功能，并将查询结果打印到终端上
 
 ###  用户管理命令
->
-#####  [useradd 命令](https://github.com/dsw0214/linux-commands/blob/master/useradd.md "useradd 命令") : 添加用户
+----------
+
+> #####  [useradd 命令](https://github.com/dsw0214/linux-commands/blob/master/useradd.md "useradd 命令") : 添加用户
 #####  [usermod 命令](https://github.com/dsw0214/linux-commands/blob/master/usermod.md "usermod 命令") : 修改系统已经存在的用户属性
 #####  [userdel 命令](https://github.com/dsw0214/linux-commands/blob/master/userdel.md "userdel 命令") : 删除用户
 #####  [groupadd 命令](https://github.com/dsw0214/linux-commands/blob/master/groupadd.md "groupadd 命令") : 添加用户组
@@ -24,8 +26,9 @@
 #####  [sudo 命令](https://github.com/dsw0214/linux-commands/blob/master/su.md "sudo 命令") : 以另外一个用户身份(默认root用户)执行事先在 sudoers文件允许的命令
 
 ###  进程管理相关命令
->
-#####  [bg 命令](https://github.com/dsw0214/linux-commands/blob/master/bg.md "bg 命令") : 将一个在后台暂停的命令,变成继续执行(在后台执行)
+----------
+
+> #####  [bg 命令](https://github.com/dsw0214/linux-commands/blob/master/bg.md "bg 命令") : 将一个在后台暂停的命令,变成继续执行(在后台执行)
 #####  [fg 命令](https://github.com/dsw0214/linux-commands/blob/master/fg.md "fg 命令") : 将后台中的命令调至前台继续运行
 #####  [jobs 命令](https://github.com/dsw0214/linux-commands/blob/master/jobs.md "jobs 命令") : 查看当前有多少在后台运行的命令
 #####  [kill 命令](https://github.com/dsw0214/linux-commands/blob/master/kill.md "kill 命令") : 终止进程
@@ -42,8 +45,9 @@
 #####  [service 命令](https://github.com/dsw0214/linux-commands/blob/master/service.md "service 命令") : 启动、停止、重新启动和关闭系统服务,还可以显示所有系统服务的当前状态
 
 ###  文件和目录操作命令
->
-#####  [ls 命令](https://github.com/dsw0214/linux-commands/blob/master/ls.md "ls 命令") : 全拼1ist,功能是列出目录的内容及其内容属性信息
+----------
+
+> #####  [ls 命令](https://github.com/dsw0214/linux-commands/blob/master/ls.md "ls 命令") : 全拼1ist,功能是列出目录的内容及其内容属性信息
 #####  [cd 命令](https://github.com/dsw0214/linux-commands/blob/master/cd.md "cd 命令") : 全拼 change directory,功能是从当前工作目录切换到指定的工作目录
 #####  [cp 命令](https://github.com/dsw0214/linux-commands/blob/master/cp.md "cp 命令") : 全拼copy,其功能为复制文件或目录
 #####  [find 命令](https://github.com/dsw0214/linux-commands/blob/master/find.md "find 命令") : 查找的意思,用于查找目录及目录下的文件
@@ -63,8 +67,9 @@
 #####  [md5sum 命令](https://github.com/dsw0214/linux-commands/blob/master/md5sum.md "md5sum 命令") : 计算和校验文件的MD5值
 
 ###  信息显示命令
->
-#####  [uname 命令](https://github.com/dsw0214/linux-commands/blob/master/uname.md "uname 命令") : 显示操作系统相关信息的命令
+----------
+
+> #####  [uname 命令](https://github.com/dsw0214/linux-commands/blob/master/uname.md "uname 命令") : 显示操作系统相关信息的命令
 #####  [hostname 命令](https://github.com/dsw0214/linux-commands/blob/master/hostname.md "hostname 命令") : 显示或者设置当前系统的主机名
 #####  [dmesg 命令](https://github.com/dsw0214/linux-commands/blob/master/dmesg.md "dmesg 命令") : 显示开机信息,用于诊断系统故障
 #####  [uptime 命令](https://github.com/dsw0214/linux-commands/blob/master/uptime.md "uptime 命令") : 显示系统运行时间及负载
@@ -77,15 +82,15 @@
 #####  [cal 命令](https://github.com/dsw0214/linux-commands/blob/master/cal.md "cal 命令") : 查看日历等时间信息
 
 ###  系统权限及用户授权相关命令
->
-#####  [chmod 命令](https://github.com/dsw0214/linux-commands/blob/master/chmod.md "chmod 命令") : 改变文件或目录权限
+> #####  [chmod 命令](https://github.com/dsw0214/linux-commands/blob/master/chmod.md "chmod 命令") : 改变文件或目录权限
 #####  [chown 命令](https://github.com/dsw0214/linux-commands/blob/master/chown.md "chown 命令") : 改变文件或目录的属主和属组
 #####  [chgrp 命令](https://github.com/dsw0214/linux-commands/blob/master/chgrp.md "chgrp 命令") : 更改文件用户组
 #####  [umask 命令](https://github.com/dsw0214/linux-commands/blob/master/umask.md "umask 命令") : 显示或设置权限掩码
 
 ###  系统管理与性能监视命令
->
-#####  [chkconfig 命令](https://github.com/dsw0214/linux-commands/blob/master/chkconfig.md "chkconfig 命令") : 管理 ELinux系统开机启动项
+----------
+
+> #####  [chkconfig 命令](https://github.com/dsw0214/linux-commands/blob/master/chkconfig.md "chkconfig 命令") : 管理 ELinux系统开机启动项
 #####  [vmstat 命令](https://github.com/dsw0214/linux-commands/blob/master/vmstat.md "vmstat 命令") : 虚拟内存统计
 #####  [mpstat 命令](https://github.com/dsw0214/linux-commands/blob/master/mpstat.md "mpstat 命令") : 显示各个可用CPU的状态统计
 #####  [iostat 命令](https://github.com/dsw0214/linux-commands/blob/master/iostat.md "iostat 命令") : 统计系统I0
@@ -96,8 +101,9 @@
 #####  [itrace 命令](https://github.com/dsw0214/linux-commands/blob/master/itrace.md "itrace 命令") : 命令会跟踪进程的库函数调用，它会显示出哪个库函数被调用
 
 ###  有关磁盘与文件系统的命令
->
-#####  [mount 命令](https://github.com/dsw0214/linux-commands/blob/master/mount.md "mount 命令") : 挂载文件系统
+----------
+
+> #####  [mount 命令](https://github.com/dsw0214/linux-commands/blob/master/mount.md "mount 命令") : 挂载文件系统
 #####  [umount 命令](https://github.com/dsw0214/linux-commands/blob/master/umount.md "umount 命令") : 卸载文件系统
 #####  [fsck 命令](https://github.com/dsw0214/linux-commands/blob/master/fsck.md "fsck 命令") : 检查并修复 Linux文件系统转换或复制文件
 #####  [dumpe2fs 命令](https://github.com/dsw0214/linux-commands/blob/master/dumpe2fs.md "dumpe2fs 命令") : 导出ext2/ext3/ext4文件系统信息
@@ -114,16 +120,18 @@
 #####  [resize2fs 命令](https://github.com/dsw0214/linux-commands/blob/master/resize2fs.md "resize2fs 命令") : 调整ext2/ext3/ext4文件系统大小
 
 ###  文件压缩及解压缩命令
->
-#####  [tar 命令](https://github.com/dsw0214/linux-commands/blob/master/tar.md "tar 命令") : 打包压缩
+----------
+
+> #####  [tar 命令](https://github.com/dsw0214/linux-commands/blob/master/tar.md "tar 命令") : 打包压缩
 #####  [unzip 命令](https://github.com/dsw0214/linux-commands/blob/master/unzip.md "unzip 命令") : 解压文件
 #####  [gzip 命令](https://github.com/dsw0214/linux-commands/blob/master/gzip.md "gzip 命令") : gzip压缩工具
 #####  [bzip2 命令](https://github.com/dsw0214/linux-commands/blob/master/bzip2.md "bzip2 命令") : bzip2压缩工具
 #####  [zip 命令](https://github.com/dsw0214/linux-commands/blob/master/zip.md "zip 命令") : 压缩工具
 
 ###  查看文件及内容处理命令
->
-#####  [cat 命令](https://github.com/dsw0214/linux-commands/blob/master/cat.md "cat 命令") : 全拼concatenate,功能是用于连接多个文件并且打印到屏幕输出或重定向到指定文件中
+----------
+
+> #####  [cat 命令](https://github.com/dsw0214/linux-commands/blob/master/cat.md "cat 命令") : 全拼concatenate,功能是用于连接多个文件并且打印到屏幕输出或重定向到指定文件中
 #####  [tac 命令](https://github.com/dsw0214/linux-commands/blob/master/tac.md "tac 命令") : tac是cat的反向拼写,因此命令的功能为反向显示文件内容
 #####  [more 命令](https://github.com/dsw0214/linux-commands/blob/master/more.md "more 命令") : 分页显示文件内容
 #####  [less 命令](https://github.com/dsw0214/linux-commands/blob/master/less.md "less 命令") : 分页显示文件内容,more命令的相反用法
@@ -150,25 +158,28 @@
 #####  [awk 命令](https://github.com/dsw0214/linux-commands/blob/master/awk.md "awk 命令") : 一种行处理器
 
 ###  搜索文件命令
->
-#####  [which 命令](https://github.com/dsw0214/linux-commands/blob/master/which.md "which 命令") : 查找二进制命令,按环境变量PATH路径查找
+----------
+
+> #####  [which 命令](https://github.com/dsw0214/linux-commands/blob/master/which.md "which 命令") : 查找二进制命令,按环境变量PATH路径查找
 #####  [find 命令](https://github.com/dsw0214/linux-commands/blob/master/find.md "find 命令") : 从磁盘遍历查找文件或目录
 #####  [whereis 命令](https://github.com/dsw0214/linux-commands/blob/master/whereis.md "whereis 命令") : 查找二进制命令,按环境变量PATH路径查找
 #####  [locate 命令](https://github.com/dsw0214/linux-commands/blob/master/locate.md "locate 命令") : 从数据库(var/lib/locate/locate.db)查找命令,使用updated更新库
 
 ###  查看系统用户登陆信息的命令
->
-#####  [whoami 命令](https://github.com/dsw0214/linux-commands/blob/master/whoami.md "whoami 命令") : 显示当前有效的用户名称,相当于执行id-un命令
+----------
+
+> #####  [whoami 命令](https://github.com/dsw0214/linux-commands/blob/master/whoami.md "whoami 命令") : 显示当前有效的用户名称,相当于执行id-un命令
 #####  [who 命令](https://github.com/dsw0214/linux-commands/blob/master/who.md "who 命令") : 显示目前登录系统的用户信息
-w : 显示已经登陆系统的用户列表,并显示用户正在执行的指令
+#####  [w 命令](https://github.com/dsw0214/linux-commands/blob/master/w.md "w 命令") : 显示已经登陆系统的用户列表,并显示用户正在执行的指令
 #####  [last 命令](https://github.com/dsw0214/linux-commands/blob/master/last.md "last 命令") : 显示登入系统的用户
 #####  [lastlog 命令](https://github.com/dsw0214/linux-commands/blob/master/lastlog.md "lastlog 命令") : 显示系统中所有用户最近一次登录信息
 #####  [users 命令](https://github.com/dsw0214/linux-commands/blob/master/users.md "users 命令") : 显示当前登录系统的所有用户的用户列表
 #####  [finger 命令](https://github.com/dsw0214/linux-commands/blob/master/finger.md "finger 命令") : 查找并显示用户信息
 
 ###  深入网络操作命令
->
-#####  [nmap 命令](https://github.com/dsw0214/linux-commands/blob/master/nmap.md "nmap 命令") : 网络扫描命令
+----------
+
+> #####  [nmap 命令](https://github.com/dsw0214/linux-commands/blob/master/nmap.md "nmap 命令") : 网络扫描命令
 #####  [lsof 命令](https://github.com/dsw0214/linux-commands/blob/master/lsof.md "lsof 命令") : 全名list open files,也就是列举系统中已经被打开的文件
 #####  [mail 命令](https://github.com/dsw0214/linux-commands/blob/master/mail.md "mail 命令") : 发送和接收邮件
 #####  [mutt 命令](https://github.com/dsw0214/linux-commands/blob/master/mutt.md "mutt 命令") : 邮件管理命令
@@ -179,8 +190,9 @@ w : 显示已经登陆系统的用户列表,并显示用户正在执行的指令
 #####  [tcpdump 命令](https://github.com/dsw0214/linux-commands/blob/master/tcpdump.md "tcpdump 命令") : 命令行抓包工具
 
 ###  内置命令及其它
->
-#####  [echo 命令](https://github.com/dsw0214/linux-commands/blob/master/echo.md "echo 命令") : 打印变量,或直接输出指定的字符串
+----------
+
+> #####  [echo 命令](https://github.com/dsw0214/linux-commands/blob/master/echo.md "echo 命令") : 打印变量,或直接输出指定的字符串
 #####  [printf 命令](https://github.com/dsw0214/linux-commands/blob/master/printf.md "printf 命令") : 将结果格式化输出到标准输出
 #####  [rpm 命令](https://github.com/dsw0214/linux-commands/blob/master/rpm.md "rpm 命令") : 管理rpm包的命令
 #####  [yum 命令](https://github.com/dsw0214/linux-commands/blob/master/yum.md "yum 命令") : 自动化简单化地管理rpm包的命令
@@ -200,16 +212,16 @@ w : 显示已经登陆系统的用户列表,并显示用户正在执行的指令
 #####  [bc 命令](https://github.com/dsw0214/linux-commands/blob/master/bc.md "bc 命令") : 命令行科学计算器
 
 ###  关机:重启:注销和查看系统信息的命令
->
-#####  [shutdown 命令](https://github.com/dsw0214/linux-commands/blob/master/shutdown.md "shutdown 命令") : 关机
+> #####  [shutdown 命令](https://github.com/dsw0214/linux-commands/blob/master/shutdown.md "shutdown 命令") : 关机
 #####  [halt 命令](https://github.com/dsw0214/linux-commands/blob/master/halt.md "halt 命令") : 关机
 #####  [poweroff 命令](https://github.com/dsw0214/linux-commands/blob/master/poweroff.md "poweroff 命令") : 关闭电源
 #####  [logout 命令](https://github.com/dsw0214/linux-commands/blob/master/logout.md "logout 命令") : 退出当前登录的She11
 #####  [exit 命令](https://github.com/dsw0214/linux-commands/blob/master/exit.md "exit 命令") : 退出当前登录的She11
 
 ###  基础网络操作命令
->
-#####  [telnet 命令](https://github.com/dsw0214/linux-commands/blob/master/telnet.md "telnet 命令") : 使用telnet协议远程登录
+----------
+
+> #####  [telnet 命令](https://github.com/dsw0214/linux-commands/blob/master/telnet.md "telnet 命令") : 使用telnet协议远程登录
 #####  [ssh 命令](https://github.com/dsw0214/linux-commands/blob/master/ssh.md "ssh 命令") : 使用SSH加密协议远程登录
 #####  [scp 命令](https://github.com/dsw0214/linux-commands/blob/master/scp.md "scp 命令") : 全拼 secure copy,用于不同主机之间复制文件
 #####  [wget 命令](https://github.com/dsw0214/linux-commands/blob/master/wget.md "wget 命令") : 命令行下载文件
@@ -223,6 +235,8 @@ w : 显示已经登陆系统的用户列表,并显示用户正在执行的指令
 
 
 ## Contributing workflow (参与工作流)
+----------
+
 以下是我建议您对该项目进行更改的方法：
 1. [FORK THIS PROJECT](https://help.github.com/articles/fork-a-repo/ "FORK THIS PROJET") TO YOUR ACCOUNT.
 2. [CREATE A BRANCH](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository "CREATE A BRANCH") FOR THE CHANGE YOU INTEND TO MAKE.
